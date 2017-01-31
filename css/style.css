@@ -1,0 +1,59 @@
+section, main {
+	display: none;
+}
+
+form#upload button {
+	display: none;
+}
+
+main.table #table, main.stats #stats, main.raw #raw, main.medias #medias, main.map #map {
+	display: block;
+}
+
+.current {
+	background-color: LightYellow;
+}
+
+#arrow-up {
+	display: none;
+	width: 80px;
+	height:79px;
+	background-image: url(../img/back-to-top.png);
+	position: fixed;
+	right: 20px;
+	bottom: 5px;
+}
+
+#loader {
+	background: transparent url(../img/loader.gif) no-repeat center center;
+	height: 400px;
+	width: 400px;
+	position: absolute;
+	z-index: 1000;
+	left: 50%;
+	top: 50%;
+	margin: -200px 0 0 -200px;
+}
+
+div.thumbnail {
+	position: relative;
+}
+.type-icon, .raw-icon, .sentiment-icon {
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	right: 5px;
+}
+.type-icon {
+	top: 8px;
+}
+.raw-icon {
+	top: 24px;
+}
+.sentiment-icon {
+	top: 24px;
+}
+
+#google-map {
+	height: 600px;
+}
